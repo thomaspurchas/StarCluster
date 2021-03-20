@@ -1,16 +1,16 @@
 # core deps
 boto==2.25.0
-paramiko==1.12.1
+paramiko==1.17.6
 scp==0.7.1
 workerpool==0.9.2
-Jinja2==2.7.2
+Jinja2==2.11.3
 decorator==3.4.0
 pycrypto==2.6.1
 iptools==0.6.1
 optcomplete==1.2-devel
 iso8601==0.1.8
 # optional deps
-ipython==1.1.0 # needed for shell command
+ipython==3.2.0 # needed for shell command
 # required for git-hooks and check.py
 pep8==1.4.6
 pyflakes==0.7.3
@@ -19,6 +19,7 @@ pytest==2.5.2
 pytest-cov==1.6
 pytest-pep8==1.0.5
 pytest-flakes==0.2
-sphinx==1.2.1
+sphinx==3.0.4
 sphinxcontrib-issuetracker==0.11
 pudb==2013.5.1
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
